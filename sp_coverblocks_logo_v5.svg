@@ -1,0 +1,9 @@
+<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="90" cy="147" r="51" fill="#2e2e2e"/>
+  <circle cx="90" cy="147" r="44" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <circle cx="90" cy="147" r="20" fill="#c0392b"/>
+  <circle cx="90" cy="147" r="14" fill="none" stroke="#2e2e2e" stroke-width="1.5"/>
+  <circle cx="90" cy="147" r="10" fill="white"/>
+  <text x="165" y="175" font-family="Arial Black, Arial, sans-serif" font-size="110" font-weight="900" fill="#d6d6d6">SP</text>
+  <text x="167" y="198" font-family="Arial, sans-serif" font-size="17" font-weight="500" fill="#c0392b">COVER  BLOCKS</text>
+</svg>
