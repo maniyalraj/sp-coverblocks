@@ -1167,6 +1167,7 @@ h4 { font-size: clamp(1.25rem, 2vw, 1.5rem); }
 
 .specs-table {
   width: 100%;
+  border-collapse: collapse;
 }
 
 .specs-table tr {
@@ -1179,21 +1180,25 @@ h4 { font-size: clamp(1.25rem, 2vw, 1.5rem); }
 
 .specs-table th,
 .specs-table td {
-  padding: var(--space-md) var(--space-lg);
+  padding: 12px 16px;
   text-align: left;
+  font-size: 0.95rem;
 }
 
 .specs-table th {
-  background: rgba(90, 102, 114, 0.08);
+  background: var(--color-bg-alt);
   font-weight: 600;
-  color: var(--color-steel);
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  width: 40%;
+  color: var(--color-primary);
+  width: 120px;
+  min-width: 120px;
 }
 
 .specs-table td {
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+
+.specs-table td[colspan] {
   color: var(--color-text-muted);
 }
 
